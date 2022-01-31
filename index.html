@@ -1,0 +1,103 @@
+<head>
+
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<html>
+
+<body>
+
+<div>
+ <center>
+  <video id="movie1" src="./1.mp4" autoplay loop >
+  </video>
+ </center>
+</div>
+
+
+</body>
+
+
+<!--　キーボード押下で対応したファイル名の動画が再生される　-->
+<script>
+addEventListener("keydown", keydownfunc );
+function keydownfunc( event ) {
+var key_code = event.keyCode;
+if( key_code === 49 ) {document.getElementById("movie1").src = "./1.mp4";
+		      document.getElementById("movie1").loop = false;
+                      }　//キーボード１
+if( key_code === 50 ) {document.getElementById("movie1").src = "./2.mp4"; 
+                       document.getElementById("movie1").loop = false;
+                      } //キーボード２
+if( key_code === 51 ) {document.getElementById("movie1").src = "./3.mp4";
+		      document.getElementById("movie1").loop = false;               
+                      } //キーボード３
+
+if( key_code === 52 ) {document.getElementById("movie1").src = "./4.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボード４
+if( key_code === 53 ) {document.getElementById("movie1").src = "./5.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボード５
+
+if( key_code === 81 ) {document.getElementById("movie1").src = "./Q.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードQ
+if( key_code === 87 ) {document.getElementById("movie1").src = "./W.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードW
+if( key_code === 69 ) {document.getElementById("movie1").src = "./E.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードE
+if( key_code === 82 ) {document.getElementById("movie1").src = "./R.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードR
+if( key_code === 84 ) {document.getElementById("movie1").src = "./T.mp4";
+                       document.getElementById("movie1").loop = false;
+		      }　//キーボードT
+
+if( key_code === 65 ) {document.getElementById("movie1").src = "./A.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードA
+if( key_code === 83 ) {document.getElementById("movie1").src = "./S.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードS
+if( key_code === 68 ) {document.getElementById("movie1").src = "./D.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードD
+if( key_code === 70 ) {document.getElementById("movie1").src = "./F.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードF
+if( key_code === 71 ) {document.getElementById("movie1").src = "./G.mp4";
+                       document.getElementById("movie1").loop = false;
+		      }　//キーボードG
+
+if( key_code === 90 ) {document.getElementById("movie1").src = "./Z.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードZ
+if( key_code === 88 ) {document.getElementById("movie1").src = "./X.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードX
+if( key_code === 67 ) {document.getElementById("movie1").src = "./C.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードC
+if( key_code === 86 ) {document.getElementById("movie1").src = "./V.mp4";
+                       document.getElementById("movie1").loop = false;
+		      } //キーボードV
+if( key_code === 66 ) {document.getElementById("movie1").src = "./B.mp4";
+                       document.getElementById("movie1").loop = false;
+		      }　//キーボードB
+
+if( key_code === 48 ) {document.getElementById("movie1").src = "./0.mp4";
+                       document.getElementById("movie1").loop = true;
+		      } //キーボード0
+
+
+}
+</script>
+
+
+
+</html>
+
